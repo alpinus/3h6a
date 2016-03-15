@@ -1,7 +1,14 @@
 body{
+    font-family: 黑体;
     margin: 0;
     padding: 0;
     background: #dfdfdf;
+}
+h3 ,h4 ,p{
+    font-family: Microsoft YaHei;
+}
+p{
+    color: #808080;
 }
 .nav{
     background: #333333;
@@ -37,6 +44,7 @@ body{
     background: #dfdfdf;
 }
 .artical{
+    border: 1px solid #cdcdcd;
     margin: 20px;
     padding: 20px;
     background: white;

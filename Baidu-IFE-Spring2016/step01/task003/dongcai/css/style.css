@@ -1,0 +1,29 @@
+body{
+    font-family: 黑体;
+    margin: 0;
+    padding: 0;
+    background: #dfdfdf;
+    background: #eeeeee;
+}
+.box{
+    background: white;
+    padding: 20px;
+    border: 1px solid #999;
+}
+.wrap{
+    padding: 20px;
+}
+.left{
+    width: 200px;
+    float: left;
+    
+}
+.middle{
+    width: auto;
+    margin-left: 240px;
+    margin-right: 160px;
+}
+.right{
+    width: 120px;
+    float: right;
+}
