@@ -88,26 +88,30 @@
                      <li>排名3</li>
                 </ol>
                 <p>下面是一个表格，我给表格加了border="1"</p>
-                <table border="1">
-                    <tr><th>表头</th><th>表头</th><th>表头</th></tr>
+                <table>
+                    <tr class="header"><th>表头</th><th>表头</th><th>表头</th></tr>
                     <tr><td>表格内容单元格</td><td>表格内容单元格</td><td><a href="#">操作</a></td></tr>
                     <tr><td>表格内容单元格</td><td>表格内容单元格</td><td><a href="#">操作</a></td></tr>
                     <tr><td>表格内容单元格</td><td>表格内容单元格</td><td><a href="#">操作</a></td></tr>
-                    <tr><td>总计</td><td colspan="2">1000</td><tr>
+                    <tr class="end"><td>总计</td><td colspan="2">1000</td><tr>
                 </table>
             </div>
             <div class="artical">
                 <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
                 <h2>侧栏注册窗口标题</h2>
-                <p>
-                <label for="email">请输入邮箱地址：<input  type="text" value="这是一个文本输入框"/></input></label>
-                </p>
-                <p>邮箱地址请按要求格式输入</p>
-                <p>
-                <label for="psw">请输入密码：<input  type="text" value="这是一个文本输入框"/></input></label>
-                <label for="psw">请重复输入密码：<input  type="text" value="这是一个文本输入框"/></input></label>
-                </p>
-                <p> 密码为6-16个英文数字</p>
+                <div class="reg-box">
+                    <p>
+                    <label for="email">请输入邮箱地址：<input  type="text" value="这是一个文本输入框"/></input></label>
+                    </p>
+                    <p class="tip">邮箱地址请按要求格式输入</p>
+                    <p>
+                    <label for="psw">请输入密码：<input  type="text" value="这是一个文本输入框"/></input></label>
+                    </p>
+                    <p>
+                    <label for="psw">请重复输入密码：<input  type="text" value="这是一个文本输入框"/></input></label>
+                    </p>
+                    <p class="tip"> 密码为6-16个英文数字</p>
+                </div>
             </div>
         </div>
 	</body>

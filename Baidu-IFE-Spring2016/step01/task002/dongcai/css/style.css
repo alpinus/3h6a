@@ -67,3 +67,27 @@ p{
 .artical .img{
     width: 100px;
 }
+table{
+    border: 1px solid #cccccc;
+}
+table .header{
+    background: #333333;
+    color: white;
+}
+table .end{
+    background: #cccccc;
+    color: black;
+}
+.reg-box{
+    width: 500px;
+    margin: 0 auto;
+}
+.reg-box .title{
+    width: 20%;
+}
+.reg-box .content{
+    width: 80%;
+}
+.reg-box .tip{
+    margin-left: 50px;
+}
