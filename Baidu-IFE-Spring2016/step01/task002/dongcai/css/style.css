@@ -64,12 +64,24 @@ p{
     width: 140px;
     margin-top: 10px;
 }
+.artical p{
+    font-size: 0.5em;
+    margin-bottom: 0px;
+}
 .artical .img{
     width: 100px;
+    margin: 10px;
 }
 table{
     border: 1px solid #cccccc;
+    border-collapse: collapse;
     width: 100%;
+}
+table td{
+    border: 1px solid #cccccc;
+}
+table th{
+    border: 1px solid #cccccc;
 }
 table .header{
     background: #333333;
