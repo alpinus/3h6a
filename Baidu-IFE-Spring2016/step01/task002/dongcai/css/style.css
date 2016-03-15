@@ -52,3 +52,18 @@ p{
     -moz-box-shadow:3px 3px 2px gray;
     -webkit-box-shadow:3px 3px 2px gray;
 }
+.artical li{
+    list-style: none;
+}
+.artical .img-group{
+    margin-left: 40px;
+}
+.artical .img-box{
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    width: 140px;
+    margin-top: 10px;
+}
+.artical .img{
+    width: 100px;
+}
