@@ -101,18 +101,41 @@
                 <h2>侧栏注册窗口标题</h2>
                 <div class="reg-box">
                     <p>
-                    <label for="email">请输入邮箱地址：<input  type="text" value="这是一个文本输入框"/></input></label>
+                    <label for="email" class="item-name">请输入邮箱地址：</label><input  type="text" value="这是一个文本输入框"/></input>
                     </p>
                     <p class="tip">邮箱地址请按要求格式输入</p>
                     <p>
-                    <label for="psw">请输入密码：<input  type="text" value="这是一个文本输入框"/></input></label>
+                    <label for="psw" class="item-name">请输入密码：</label><input  type="text" value="这是一个文本输入框"/></input>
                     </p>
                     <p>
-                    <label for="psw">请重复输入密码：<input  type="text" value="这是一个文本输入框"/></input></label>
+                    <label for="psw" class="item-name">请重复输入密码：</label><input  type="text" value="这是一个文本输入框"/></input>
                     </p>
                     <p class="tip"> 密码为6-16个英文数字</p>
+                    <p>
+                        <lable class="item-name">性别：</lable><input name="sex" type="radio" checked="true">男</input><input name="sex" type="radio">女</input>
+                    </p>
+                    <p>
+                        <label class="item-name">城市：</label>
+                        <select>
+                            <option>北京</option>
+                            <option>上海</option>
+                            <option>广州</option>
+                        </select>
+                    </p>
+                    <p>
+                    <label class="item-name">爱好：</label><input type="checkbox" name="habbit">运动</input>
+                    <input type="checkbox"
+                             name="habbit" >艺术</input>
+                    <input type="checkbox"
+                             name="habbit" >科学</input>
+                    </p>
+                    <p>
+                    <label class="item-name top-name">个人描述：</label><textarea type="text">这是一个多行输入框，输入您的个人描述</textarea>
+                    </p>
                 </div>
+                <input class="sub-btn" type="submit" value="确认提交"></input>
             </div>
         </div>
+        <footer>版权所有@</footer>
 	</body>
 </html>
