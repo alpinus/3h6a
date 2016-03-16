@@ -1,4 +1,4 @@
-/**{
+*{
     margin: 0;
     padding: 0;
     font-family: "微软雅黑"
@@ -30,21 +30,9 @@ body{
 .middle{
     margin-left: 240px;
     margin-right: 160px;
+    min-width: 50px;
 }
 .right{
     width: 120px;
     float: right;
-    position: absolute;
-}*/
-.box { 
-   display: inline-block; 
-   background: red; 
-   width: 100px; 
-   height: 100px; 
-   float: left; 
-   margin: 20px; 
-   color: white; 
 }
-
-#one { position: sticky; top: 10px; }
-#two { position: absolute; top: 20px; left: 20px; }
