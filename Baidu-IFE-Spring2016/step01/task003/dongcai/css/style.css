@@ -14,9 +14,10 @@ body{
     background: white;
 }
 .team-box{
+    display:block;
     vertical-align: middle;
-    margin: 0 auto;
     height: 56px;
+    margin-top: 20px;
 }
 .team-box p{
     float: right;
