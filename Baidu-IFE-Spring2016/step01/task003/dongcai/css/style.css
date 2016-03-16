@@ -7,23 +7,36 @@
         box-sizing: border-box;
 }
 body{
-    font-family: 黑体;
     margin: 0;
     padding: 0;
-    background: #dfdfdf;
-    background: #eeeeee;
+    /*background: #dfdfdf;
+    background: #eeeeee;*/
+    background: white;
+}
+.team-box{
+    vertical-align: middle;
+    margin: 0 auto;
+    height: 56px;
+}
+.team-box p{
+    float: right;
 }
 .box{
     background: white;
     padding: 20px;
-    
+}
+.has-border{
+    border: 1px solid #979797;
 }
 .wrap{
     padding: 20px;
-    
+    margin: 20px;
+    background: #eeeeee;
+    min-width: 500px;
 }
 .left{
     width: 200px;
+    height:150px;
     float: left;
     position: absolute;
 }
@@ -31,8 +44,18 @@ body{
     margin-left: 240px;
     margin-right: 160px;
     min-width: 50px;
+    height: 605px;
 }
 .right{
     width: 120px;
     float: right;
+}
+.head{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.my-logo{
+    width: 80px;
+    height: 80px;
 }
