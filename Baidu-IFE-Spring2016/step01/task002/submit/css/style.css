@@ -1,0 +1,126 @@
+body{
+    font-family: 黑体;
+    margin: 0;
+    padding: 0;
+    background: #dfdfdf;
+}
+h3 ,h4 ,p{
+    font-family: Microsoft YaHei;
+}
+p{
+    color: #808080;
+}
+.nav{
+    background: #333333;
+    color: white;
+    height: 60px;
+   
+}
+.nav .logo{
+    position: relative;
+    margin-left: 30px;
+    float: left;
+}
+.nav ul{
+    float: right;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+.nav li{
+    float: left;
+    margin-right: 20px;
+    font-size: 0.5em;
+    color: black;
+}
+.nav li p{
+    color: white;
+}
+.nav .active{
+    color: #95969b;
+}
+.artical-list{
+    background: #dfdfdf;
+}
+.artical{
+    border: 1px solid #cdcdcd;
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 3px 3px 2px gray;
+    -moz-box-shadow:3px 3px 2px gray;
+    -webkit-box-shadow:3px 3px 2px gray;
+}
+.artical li{
+    list-style: none;
+}
+.artical .img-group{ 
+    margin-left: 40px;
+}
+.artical .img-box{
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    width: 140px;
+    margin-top: 10px;
+}
+.artical p{
+    font-size: 0.5em;
+    margin-bottom: 0px;
+}
+.artical .img{
+    width: 100px;
+    margin: 10px;
+}
+table{
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    width: 100%;
+}
+table td{
+    border: 1px solid #cccccc;
+}
+table th{
+    border: 1px solid #cccccc;
+}
+table .header{
+    background: #333333;
+    color: white;
+}
+table .end{
+    background: #cccccc;
+    color: black;
+}
+.reg-box{
+    width: 500px;
+    margin: 0 auto;
+}
+.reg-box .content{
+}
+.reg-box .item-name{
+    width: 40%;
+    text-align: right;
+    display:inline-block;
+}
+.reg-box .top-name{
+    vertical-align: top;
+}
+.reg-box .tip{
+    margin-left: 200px;
+}
+.sub-btn{
+    width: 100%;
+    height: 40px;
+    background: #342eff;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    
+}
+footer{
+    background: black;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+}
